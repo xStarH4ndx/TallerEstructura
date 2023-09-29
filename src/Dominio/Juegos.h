@@ -17,12 +17,13 @@ Juegos::Juegos(string nombre, string developer, int clasificacionEdad, int preci
     :Software(nombre, developer, clasificacionEdad, precio), genero(genero) {
 }
 //destructor
-Juegos::~Juegos(){}
+Juegos::~Juegos(){
+}
 
 string Juegos::getGenero(){
     return this->genero;
 }
 
 void Juegos::setGenero(string genero){
-    this->genero=genero;
+    this->genero;
 }
