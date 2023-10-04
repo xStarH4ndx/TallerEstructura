@@ -3,7 +3,7 @@ using namespace std;
 
 class Sistema{
     public:
-        virtual void poblarUsuarios();
+        virtual void poblarUsuarios(){};
         
         virtual ~Sistema(){}
 };
