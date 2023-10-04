@@ -6,8 +6,7 @@ int main(){
 
     SistemaIMPL sistema;
 
-    sistema.metodo1();
-    sistema.otrometodo();
+    sistema.poblarUsuarios();
 
     return 0;
 }
