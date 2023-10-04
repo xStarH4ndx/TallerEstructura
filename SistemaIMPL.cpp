@@ -1,6 +1,9 @@
 #include "Sistema.h"
+#include <vector>
 #include "Usuario.h"
 using namespace std;
+
+class Software;
 
 class SistemaIMPL : public Sistema {
     private:
