@@ -1,10 +1,13 @@
 #include <iostream>
-#include "Software.h"
-#include "Usuario.h"
-
+#include "SistemaIMPL.cpp"
 using namespace std;
 
 int main(){
-    cout<<"hola mundo"<<endl;
+
+    SistemaIMPL sistema;
+
+    sistema.metodo1();
+    sistema.otrometodo();
+
     return 0;
 }
