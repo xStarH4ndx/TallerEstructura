@@ -3,7 +3,7 @@
 
 class Sistema {
 public:
-    virtual void poblarUsuarios() {};
+    virtual void poblarUsuarios() =0;
     
     virtual ~Sistema() {}
 };
