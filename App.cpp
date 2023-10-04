@@ -1,11 +1,9 @@
 #include <iostream>
-#include "SistemaIMPL.cpp"
-using namespace std;
+#include "Sistema.h"
+#include "SistemaIMPL.cpp" // Incluye la implementación, pero esto no es ideal
 
-int main(){
-
+int main() {
     SistemaIMPL sistema;
-
     sistema.poblarUsuarios();
 
     return 0;

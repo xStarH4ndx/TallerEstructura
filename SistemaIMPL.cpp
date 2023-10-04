@@ -1,14 +1,9 @@
-#pragma once
-#include <iostream>
-#include <vector>
-#include "Sistema.cpp"
-#include "Software.h"
+#include "Sistema.h"
 #include "Usuario.h"
 
 class SistemaIMPL : public Sistema {
     private:
-        std::vector<Usuario> usuarios;
-
+        std::vector<Usuario>usuarios;
     public:
         void poblarUsuarios() override {
             usuarios.push_back(Usuario("Admin", 30));
@@ -19,5 +14,5 @@ class SistemaIMPL : public Sistema {
                 usuarios.push_back(Usuario("Usuario" + std::to_string(i), 25));
             }
         }
-
 };
+
