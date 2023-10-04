@@ -1,9 +1,10 @@
 #include "Sistema.h"
 #include "Usuario.h"
+using namespace std;
 
 class SistemaIMPL : public Sistema {
     private:
-        std::vector<Usuario>usuarios;
+        vector<Usuario>usuarios;
     public:
         void poblarUsuarios() override {
             usuarios.push_back(Usuario("Admin", 30));
