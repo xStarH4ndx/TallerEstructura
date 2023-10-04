@@ -1,6 +1,5 @@
 #include "SistemaIMPL.h"
 
-using namespace std;
 void SistemaIMPL::poblarUsuarios() {
     // Implementation of poblarUsuarios
     // ...
