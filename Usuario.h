@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <algorithm>
 class Software;
 using namespace std;
 
@@ -50,6 +51,14 @@ void Usuario::agregarSoftware(const Software& software) {
 }
 
 void Usuario::eliminarSoftware(const Software& software) {
-    // Puedes implementar la lógica para eliminar un software de la biblioteca aquí.
-    // Por ejemplo, puedes buscar el software en la biblioteca y luego eliminarlo.
+    // Utiliza un iterador para buscar el software en la biblioteca
+    auto it = find(biblioteca.begin(), biblioteca.end(), software);
+
+    // Si se encuentra el software, elimínalo
+    if (it != biblioteca.end()) {
+        biblioteca.erase(it);
+        cout << "Software eliminado de la biblioteca del usuario." << endl;
+    } else {
+        cout << "El software no está en la biblioteca del usuario." << endl;
+    }
 }
