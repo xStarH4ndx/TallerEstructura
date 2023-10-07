@@ -4,7 +4,7 @@ class Sistema{
     public:
 
         //inicio del main
-        virtual void poblarUsuarios()=0;
+        virtual void poblarUsuarios() const;
 
         //probador
         virtual void encender()=0;
