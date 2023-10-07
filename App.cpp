@@ -1,10 +1,10 @@
 #include <iostream>
 #include "Sistema.h"
-#include "SistemaIMPL.h" // Incluye la implementación, pero esto no es ideal
+#include "SistemaIMPL.cpp" // Incluye la implementación, pero esto no es ideal
 
 int main() {
     SistemaIMPL sistema;
-    sistema.poblarUsuarios();
-
+    //sistema.poblarUsuarios();
+    sistema.apagar();
     return 0;
-}
+};
