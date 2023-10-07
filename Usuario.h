@@ -2,8 +2,8 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-using namespace std;
 class Software;
+using namespace std;
 
 class Usuario{
     private:
