@@ -2,6 +2,7 @@
 #include <vector>
 #include "Sistema.h"
 #include "Usuario.h"
+#include "Software.h"
 using namespace std;
 
 class SistemaIMPL:public Sistema{
