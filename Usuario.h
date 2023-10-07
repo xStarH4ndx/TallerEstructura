@@ -26,7 +26,12 @@ class Usuario{
         void eliminarSoftware(const Software& software);
 };
 
-Usuario::Usuario(string nombre,string pasword,int edad) {}
+Usuario::Usuario(string nombre,string pasword,int edad) {
+    this->nombre=nombre;
+    this->pasword=pasword;
+    this->edad=edad;
+}
+
 Usuario::~Usuario() { cout << "Se destruyó objeto usuario" << endl; }
 
 string Usuario::getNombre() {
