@@ -6,10 +6,11 @@ int main() {
     SistemaIMPL sistema;
     //sistema.poblarUsuarios();
     
+
+    //probando weas
     sistema.encender();
     sistema.apagar();
     sistema.reiniciar();
-    
     
     return 0;
 };

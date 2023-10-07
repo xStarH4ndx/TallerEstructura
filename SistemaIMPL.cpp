@@ -1,9 +1,21 @@
 #include <iostream>
+#include <vector>
 #include "Sistema.h"
+class Usuario;
+class Software;
 using namespace std;
 
 class SistemaIMPL:public Sistema{
+    private:
+        vector<Usuario>listaUsuarios;
     public:
+        //iniciando el main
+        void poblarUsuarios() override{
+            //Usuario usuario= new Usuario()
+
+        }
+
+        //probando
         void encender() override{
             cout<<"ENCENDIDO"<<endl;
         }
