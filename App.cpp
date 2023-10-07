@@ -5,6 +5,11 @@ class Sistema;
 int main() {
     SistemaIMPL sistema;
     //sistema.poblarUsuarios();
+    
+    sistema.encender();
     sistema.apagar();
+    sistema.reiniciar();
+    
+    
     return 0;
 };
