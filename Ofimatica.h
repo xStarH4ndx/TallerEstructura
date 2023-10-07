@@ -14,7 +14,7 @@ class Ofimatica:public Software{
 
 Ofimatica::Ofimatica(string nombre,string developer,int clasificacionEdad,int precio,int cantidadArchivos)
     :Software(nombre,developer,clasificacionEdad,precio),cantidadArchivos(cantidadArchivos){
-
+        this->cantidadArchivos=cantidadArchivos;
 };
 
 Ofimatica::~Ofimatica(){};

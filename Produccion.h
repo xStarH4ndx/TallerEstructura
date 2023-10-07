@@ -14,6 +14,7 @@ class Produccion:public Software{
 
 Produccion::Produccion(string nombre,string developer,int clasificacionEdad,int precio,string tipoSolucion)
     :Software(nombre,developer,clasificacionEdad,precio),tipoSolucion(tipoSolucion){
+        this->tipoSolucion=tipoSolucion;
 }
 
 Produccion::~Produccion(){}

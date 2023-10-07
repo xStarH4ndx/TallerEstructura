@@ -12,7 +12,7 @@ class SistemaIMPL:public Sistema{
         //iniciando el main
         void poblarUsuarios() override{
             //Usuario usuario= new Usuario()
-
+            cout<<"se agregaron usuarios"<<endl;
         }
 
         //probando
