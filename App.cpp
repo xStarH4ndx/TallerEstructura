@@ -1,10 +1,13 @@
 #include <iostream>
+#include <vector>
+#include "Usuario.h"
 class Sistema;
 #include "SistemaIMPL.cpp" // Incluye la implementación, pero esto no es ideal
 
 int main() {
     SistemaIMPL sistema;
-    sistema.poblarUsuarios();
+    vector<Usuario>listaUsuarios;
+    sistema.poblarUsuarios(listaUsuarios);
     
 
     //probando weas

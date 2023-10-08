@@ -4,7 +4,7 @@ class Sistema{
     public:
 
         //inicio del main
-        virtual void poblarUsuarios(){};
+        virtual void poblarUsuarios(vector<Usuario>listaUsuarios){};
 
         //probador
         virtual void encender()=0;
