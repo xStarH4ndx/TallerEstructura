@@ -7,7 +7,7 @@ using namespace std;
 
 class SistemaIMPL:public Sistema{
     private:
-        vector<Usuario>listaUsuarios;
+        //vector<Usuario>listaUsuarios;
     public:
         //iniciando el main
         void poblarUsuarios(){//es esa wea
