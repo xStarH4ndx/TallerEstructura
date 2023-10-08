@@ -8,7 +8,7 @@ using namespace std;
 class SistemaIMPL:public Sistema{
     public:
         //iniciando el main
-        void poblarUsuarios(vector<Usuario>listaUsuarios){//es esa wea
+        void poblarUsuarios(vector<Usuario>listaUsuarios){
             //Usuario usuario= new Usuario()
             Administrador admin("Bruno","123",22,"cAdmin","yes");
             listaUsuarios.push_back(admin);
@@ -19,6 +19,7 @@ class SistemaIMPL:public Sistema{
         void encender() override{
             cout<<"ENCENDIDO"<<endl;
         }
+        
         void apagar() override{
             cout<<"Apagando"<<endl;
         }

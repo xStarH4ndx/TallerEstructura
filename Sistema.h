@@ -2,7 +2,6 @@
 
 class Sistema{
     public:
-
         //inicio del main
         virtual void poblarUsuarios(vector<Usuario>listaUsuarios){};
 
