@@ -1,8 +1,8 @@
 #include <iostream>
 #include <vector>
 #include "Sistema.h"
-class Usuario;
-//#include "Software.h"
+class Software;
+#include "Usuario.h"
 using namespace std;
 
 class SistemaIMPL:public Sistema{
