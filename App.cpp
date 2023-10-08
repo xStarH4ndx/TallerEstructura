@@ -4,7 +4,7 @@ class Sistema;
 
 int main() {
     SistemaIMPL sistema;
-    //sistema.poblarUsuarios();
+    sistema.poblarUsuarios();
     
 
     //probando weas
