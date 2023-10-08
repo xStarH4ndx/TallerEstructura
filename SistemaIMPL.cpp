@@ -10,7 +10,7 @@ class SistemaIMPL:public Sistema{
         //vector<Usuario>listaUsuarios;
     public:
         //iniciando el main
-        void poblarUsuarios() override{//es esa wea
+        void poblarUsuarios() const override{//es esa wea
             //Usuario usuario= new Usuario()
             cout<<"se agregaron usuarios"<<endl;
         }
