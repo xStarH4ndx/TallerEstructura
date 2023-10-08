@@ -5,7 +5,7 @@ class Usuario;
 
 using namespace std;
 class SistemaIMPL:public Sistema{
-    private:
+    protected:
         vector<Usuario>listaUsuarios;
     public:
         //iniciando el main
