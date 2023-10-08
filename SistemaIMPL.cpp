@@ -1,15 +1,16 @@
 #include <iostream>
 #include <vector>
 #include "Sistema.h"
-class Usuario;
+#include "Usuario.h"
 
 using namespace std;
+
 class SistemaIMPL:public Sistema{
     private:
-        //vector<Usuario>listaUsuarios;
+        vector<Usuario>listaUsuarios;
     public:
         //iniciando el main
-        void poblarUsuarios() override{//es esa wea
+        void poblarUsuarios(){//es esa wea
             //Usuario usuario= new Usuario()
             cout<<"se agregaron usuarios"<<endl;
         }
