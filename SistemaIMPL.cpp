@@ -1,10 +1,9 @@
 #include <iostream>
 #include <vector>
 #include "Sistema.h"
-class Software;
 #include "Usuario.h"
-using namespace std;
 
+using namespace std;
 class SistemaIMPL:public Sistema{
     private:
         vector<Usuario>listaUsuarios;
