@@ -1,5 +1,4 @@
 #include <iostream>
-#include <vector>
 #include "Sistema.h"
 
 #include "Administrador.h"
