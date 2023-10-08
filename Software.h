@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
-class Usuario;
+#include "Usuario.h"
 using namespace std;
 
 //ESTA ES LA CLASE PADRE DE TODOS LOS SOFTWARES
