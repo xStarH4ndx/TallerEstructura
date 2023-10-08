@@ -1,13 +1,13 @@
 #include <iostream>
 #include <vector>
 #include "Sistema.h"
-#include "Usuario.h"
-#include "Software.h"
+//#include "Usuario.h"
+//#include "Software.h"
 using namespace std;
 
 class SistemaIMPL:public Sistema{
     private:
-        vector<Usuario>listaUsuarios;
+        //vector<Usuario>listaUsuarios;
     public:
         //iniciando el main
         /*
