@@ -11,7 +11,7 @@ class SistemaIMPL:public Sistema{
     public:
         //iniciando el main
         /**/
-        void poblarUsuarios() const override{//es esa wea
+        void poblarUsuarios() override{//es esa wea
             //Usuario usuario= new Usuario()
             cout<<"se agregaron usuarios"<<endl;
         }
