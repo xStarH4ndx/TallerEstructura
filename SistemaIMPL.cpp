@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "Sistema.h"
-#include "Usuario.h"
+class Usuario;
 //#include "Software.h"
 using namespace std;
 
