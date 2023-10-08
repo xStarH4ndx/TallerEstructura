@@ -5,8 +5,8 @@ class Usuario;
 
 using namespace std;
 class SistemaIMPL:public Sistema{
-    protected:
-        vector<Usuario>listaUsuarios;
+    private:
+        //vector<Usuario>listaUsuarios;
     public:
         //iniciando el main
         void poblarUsuarios() override{//es esa wea
