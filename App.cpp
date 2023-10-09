@@ -1,5 +1,4 @@
 #include <iostream>
-#include "Clases/Usuario.h"
 #include "Clases/Sistema.cpp"
 
 using namespace std;
