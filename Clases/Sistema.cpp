@@ -4,7 +4,6 @@
 #include "Software.h"
 
 using namespace std;
-
 class Sistema{
     private:
         vector<Usuario> listaUsuarios;
@@ -15,11 +14,9 @@ class Sistema{
             listaUsuarios.push_back(kid);
         }
 
-        vector<Usuario> getListaUsuarios(){
-            return this->listaUsuarios;
-        }
-
-        vector<Software> getListaSoftwares(){
-            return this->listaSoftwares;
+        void imprimirUsuarios(){
+            for(int i=0;i<listaUsuarios.size();i++){
+                cout<<listaUsuarios[i].getNombre()<<endl;
+            }
         }
 };

@@ -7,12 +7,6 @@ int main() {
     Sistema sistema;
     sistema.poblarUsuarios();
     // Obtenemos la lista de usuarios
-    vector<Usuario> usuarios = sistema.getListaUsuarios();
-
-    // Imprimimos la lista de usuarios
-    for (Usuario usuario : usuarios) {
-        cout<<usuario.getNombre()<<endl;
-    }
-
+    sistema.imprimirUsuarios();
     return 0;
 }
