@@ -1,4 +1,5 @@
 #include "Usuario.h"
+#include "Software.h"
 
 Usuario::Usuario(string nombre,string password,int edad){
     this->nombre=nombre;
@@ -30,7 +31,7 @@ void Usuario::setEdad(int edad){
     this->edad=edad;
 }
 
-void Usuario::agregarSoftware(Software* software) {
+void Usuario::agregarSoftware(Software software) {
     biblioteca.push_back(software);
 }
 

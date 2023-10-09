@@ -10,7 +10,7 @@ class Usuario{
         string password;
         int edad;
         //lista de softwares
-        vector<Software*>biblioteca;
+        vector<Software>biblioteca;
 
     public:
         Usuario(string,string,int);
@@ -20,6 +20,6 @@ class Usuario{
         void setNombre(string);
         void setPassword(string);
         void setEdad(int);
-        void agregarSoftware(Software* software);
+        void agregarSoftware(Software software);
         ~Usuario();
 };

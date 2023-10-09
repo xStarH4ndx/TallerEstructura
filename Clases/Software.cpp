@@ -1,4 +1,5 @@
 #include "Software.h"
+#include "Usuario.h"
 
 Software::Software(string nombre,string developer,int clasificacionEdad,int precio){
     this->nombre=nombre;
@@ -39,7 +40,7 @@ void Software::setPrecio(int precio){
     this->precio=precio;
 }
 
-void Software::agregarUsuario(Usuario* usuario) {
+void Software::agregarUsuario(Usuario usuario) {
     listaDeveloper.push_back(usuario);
 }
 

@@ -11,7 +11,7 @@ class Software{
         int clasificacionEdad;
         int precio;
         //lista de usuarios
-        vector<Usuario*>listaDeveloper;
+        vector<Usuario>listaDeveloper;
     public:
         Software(string,string,int,int);
         string getNombre();
@@ -22,6 +22,6 @@ class Software{
         void setDeveloper(string);
         void setClasificacionEdad(int);
         void setPrecio(int);
-        void agregarUsuario(Usuario* usuario);
+        void agregarUsuario(Usuario usuario);
         ~Software();
 };
