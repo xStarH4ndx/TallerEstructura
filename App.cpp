@@ -1,16 +1,18 @@
 #include <iostream>
-#include "Sistema.cpp"
+#include <vector>
+#include "Usuario.h"
+#include "Software.h"
 
-
+void poblarUsuarios();
 
 using namespace std;
 int main() {
-    Sistema sistema;
-    //Administrador admin("Bruno","123",22,"cAdmin","si");
-    sistema.poblarUsuarios();
-    
+    vector<Usuario>listaUsuarios;
 
-    //probando weas
-    
+    cout<<"iniciando programa"<<endl;
     return 0;
+}
+
+void poblarUsuarios(){
+
 };
