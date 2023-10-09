@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
+#include <algorithm>
 #include "Usuario.h"
 using namespace std;
 
@@ -32,7 +33,8 @@ Software::Software(string nombre,string developer,int clasificacionEdad,int prec
     this->developer = developer;
     this->clasificacionEdad = clasificacionEdad;
     this->precio = precio;
-};
+}
+
 Software::~Software(){cout<<"Se destruyo objeto Software"<<endl;};
 
 string Software::getNombre(){
