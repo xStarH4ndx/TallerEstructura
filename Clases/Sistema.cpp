@@ -1,12 +1,15 @@
 #include <iostream>
 #include <vector>
+//Usuarios
 #include "Usuario.h"
 #include "Administrador.h"
 #include "Normal.h"
+//SOFTWARE
 #include "Software.h"
 #include "Juegos.h"
 #include "Ofimatica.h"
 #include "Produccion.h"
+#include "Navegador.h"
 
 using namespace std;
 class Sistema{
@@ -15,6 +18,7 @@ class Sistema{
         vector<Juegos> listaJuegos;
         vector<Ofimatica> listaOfimatica;
         vector<Produccion> listaProduccion;
+        vector<Navegador> listaNavegador;
     public:
         //PARA LOS USUARIOS
         void poblarUsuarios(){
@@ -70,7 +74,6 @@ class Sistema{
                 cout<<listaOfimatica[i].getNombre()<<listaOfimatica[i].getDeveloper()<<endl;
             }
         }
-
         //PARA PRODUCCION
         void poblarProduccion(){
             listaProduccion.push_back(Produccion("VideoMaker", "Developer1", 0, 150, "video"));
@@ -78,22 +81,31 @@ class Sistema{
             listaProduccion.push_back(Produccion("StreamingApp", "Developer3", 0, 100, "streaming"));
             listaProduccion.push_back(Produccion("PhotoEditor", "Developer4", 0, 80, "fotos"));
         }
+        //PARA NAVEGADOR
+        void poblarNavegador(){
+            listaNavegador.push_back(Navegador("Chrome", "Google", 0, 0));
+            listaNavegador.push_back(Navegador("Firefox", "Mozilla", 0, 0));
+        }
 
         //GETERS
-        // Método para obtener la lista de usuarios
+        //Metodo para obtener la lista de usuarios
         const vector<Usuario>& obtenerListaUsuarios() const {
             return listaUsuarios;
         }
-        // Método para obtener la lista de juegos
+        //Metodo para obtener la lista de juegos
         const vector<Juegos>& obtenerListaJuegos() const {
             return listaJuegos;
         }
-        // Método para obtener la lista de software de ofimática
+        //Metodo para obtener la lista de software de ofimatica
         const vector<Ofimatica>& obtenerListaOfimatica() const {
             return listaOfimatica;
         }
-        // Método para obtener la lista de software de producción
+        //Metodo para obtener la lista de software de produccion
         const vector<Produccion>& obtenerListaProduccion() const {
             return listaProduccion;
+        }
+        //Metodo para obtener la lista de software de Navegadores
+        const vector<Navegador>& obtenerListaNavegador() const {
+            return listaNavegador;
         }
 };
