@@ -1,11 +1,11 @@
 #include <iostream>
 #include <vector>
 #include "Usuario.h"
-//class Sistema;
-//#include "SistemaIMPL.cpp" // Incluye la implementación, pero esto no es ideal
-#include "NuevoSistema.cpp"
+#include "Sistema.cpp"
+
+using namespace std;
 int main() {
-    NuevoSistema sistema;
+    Sistema sistema;
     vector<Usuario>listaUsuarios;
     sistema.poblarUsuarios(listaUsuarios);
     

@@ -3,7 +3,7 @@
 #include "Administrador.h"
 
 using namespace std;
-class NuevoSistema{
+class Sistema{
     public:
 
         void poblarUsuarios(vector<Usuario>listaUsuarios){
