@@ -16,12 +16,12 @@ class Sistema{
             listaUsuarios.push_back(admin);
 
             for(int i=1;i<5;i++){
-                Usuario kid("kid"+i,"123",14);
+                Usuario kid("kid"+to_string(i),"123",14);
                 listaUsuarios.push_back(kid);
             }
 
             for(int j=1;j<11;j++){
-                Normal user("Normal"+j,"123",18,"cNormal");
+                Normal user("Normal"+ to_string(j),"123",18,"cNormal");
                 listaUsuarios.push_back(user);
             }
         }
