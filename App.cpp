@@ -16,10 +16,10 @@ int main() {
     Sistema sistema;
     baseDatos(sistema);
     // Obtener las listas
-    const auto& listaUsuarios = sistema.obtenerListaUsuarios();
-    const auto& listaJuegos = sistema.obtenerListaJuegos();
-    const auto& listaOfimatica = sistema.obtenerListaOfimatica();
-    const auto& listaProduccion = sistema.obtenerListaProduccion();
+    //const auto& listaUsuarios = sistema.obtenerListaUsuarios();
+    //const auto& listaJuegos = sistema.obtenerListaJuegos();
+    //const auto& listaOfimatica = sistema.obtenerListaOfimatica();
+    //const auto& listaProduccion = sistema.obtenerListaProduccion();
 
 
     //IMPRESIONES DE LA BASE DE DATOS
