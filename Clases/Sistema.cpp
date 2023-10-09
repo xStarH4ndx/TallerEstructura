@@ -61,6 +61,15 @@ class Sistema{
 
         //Ofimatica
         void poblarOfimatica(){
-            
+            listaOfimatica.push_back(Ofimatica("Word", "Microsoft", 0, 99, 0));
+            listaOfimatica.push_back(Ofimatica("Excel", "Microsoft", 0, 79, 0));
+            listaOfimatica.push_back(Ofimatica("PowerPoint", "Microsoft", 0, 89, 0));
+            listaOfimatica.push_back(Ofimatica("LibreOffice Writer", "The Document Foundation", 0, 0, 0));
+            listaOfimatica.push_back(Ofimatica("LibreOffice Calc", "The Document Foundation", 0, 0, 0));
+        }
+        void imprimirOfimatica(){
+            for(int i=0;i<listaOfimatica.size();i++){
+                cout<<listaOfimatica[i].getNombre()<<listaOfimatica[i].getDeveloper()<<endl;
+            }
         }
 };
