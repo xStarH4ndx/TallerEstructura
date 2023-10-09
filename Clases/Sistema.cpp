@@ -6,6 +6,7 @@
 #include "Software.h"
 #include "Juegos.h"
 #include "Ofimatica.h"
+#include "Produccion.h"
 
 using namespace std;
 class Sistema{
@@ -13,6 +14,7 @@ class Sistema{
         vector<Usuario> listaUsuarios;
         vector<Juegos> listaJuegos;
         vector<Ofimatica> listaOfimatica;
+        vector<Produccion> listaProduccion;
     public:
         //PARA LOS USUARIOS
         void poblarUsuarios(){
@@ -67,5 +69,10 @@ class Sistema{
             for(int i=0;i<listaOfimatica.size();i++){
                 cout<<listaOfimatica[i].getNombre()<<listaOfimatica[i].getDeveloper()<<endl;
             }
+        }
+
+        //PARA PRODUCCION
+        void poblarProduccion(){
+            
         }
 };
