@@ -32,11 +32,11 @@ void Usuario::setEdad(int edad) {
     this->edad = edad;
 }
 
+/*
 const vector<Software>& Usuario::getBiblioteca() {
     return biblioteca;
 }
 
-/*
 void Usuario::agregarSoftware(const Software& software) {
     biblioteca.push_back(software);
 }

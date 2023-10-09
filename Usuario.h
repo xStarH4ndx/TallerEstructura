@@ -21,7 +21,7 @@ class Usuario{
         void setPasword(string);
         int getEdad();
         void setEdad(int);
-        const vector<Software>& getBiblioteca();
+        //const vector<Software>& getBiblioteca();
         //void agregarSoftware(const Software& software);
         //void eliminarSoftware(const Software& software);
 };
