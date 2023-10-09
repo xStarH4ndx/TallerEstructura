@@ -86,6 +86,11 @@ class Sistema{
             listaNavegador.push_back(Navegador("Chrome", "Google", 0, 0));
             listaNavegador.push_back(Navegador("Firefox", "Mozilla", 0, 0));
         }
+        void imprimirNavegador(){
+            for(int i=0;i<listaNavegador.size();i++){
+                cout<<listaNavegador[i].getNombre()<<endl;
+            }
+        }
 
         //GETERS
         //Metodo para obtener la lista de usuarios

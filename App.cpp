@@ -26,6 +26,7 @@ int main() {
     sistema.imprimirUsuarios();
     sistema.imprimirJuegos();
     sistema.imprimirOfimatica();
+    sistema.imprimirNavegador();
     return 0;
 }
 
@@ -34,4 +35,5 @@ void baseDatos(Sistema sistema){
     sistema.poblarJuegos();
     sistema.poblarOfimatica();
     sistema.poblarProduccion();
+    sistema.poblarNavegador();
 }
