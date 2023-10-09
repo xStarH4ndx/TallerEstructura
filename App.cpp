@@ -1,12 +1,10 @@
 #include <iostream>
-#include <vector>
-#include "Usuario.h"
 #include "Sistema.cpp"
 
 using namespace std;
 int main() {
     Sistema sistema;
-    vector<Usuario>listaUsuarios;
+    vector<Usuario> listaUsuarios;
     sistema.poblarUsuarios(listaUsuarios);
     
 
