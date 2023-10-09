@@ -5,12 +5,14 @@
 #include "Normal.h"
 #include "Software.h"
 #include "Juegos.h"
+#include "Ofimatica.h"
 
 using namespace std;
 class Sistema{
     private:
         vector<Usuario> listaUsuarios;
         vector<Juegos> listaJuegos;
+        vector<Ofimatica> listaOfimatica;
     public:
         //PARA LOS USUARIOS
         void poblarUsuarios(){
@@ -55,5 +57,10 @@ class Sistema{
             for(int i=0;i<listaJuegos.size();i++){
                 cout<<listaJuegos[i].getNombre()<<listaJuegos[i].getGenero()<<endl;
             }
+        }
+
+        //Ofimatica
+        void poblarOfimatica(){
+            
         }
 };

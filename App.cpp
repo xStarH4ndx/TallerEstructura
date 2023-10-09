@@ -7,6 +7,7 @@ int main() {
     Sistema sistema;
     sistema.poblarUsuarios();
     sistema.poblarJuegos();
+    sistema.poblarOfimatica();
     // Obtenemos la lista de usuarios
     sistema.imprimirUsuarios();
     sistema.imprimirJuegos();
