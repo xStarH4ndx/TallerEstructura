@@ -1,4 +1,4 @@
-#include "Usuario.h"
+#include "Clases/Usuario.h"
 
 Usuario::Usuario(string nombre,string password,int edad){
     this->nombre=nombre;
