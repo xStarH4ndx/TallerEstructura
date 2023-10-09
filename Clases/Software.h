@@ -1,14 +1,17 @@
 #pragma once
 #include <iostream>
-using namespace std;
+#include <vector>
+class Usuario;
 
+using namespace std;
 class Software{
     private:
         string nombre;
         string developer;
         int clasificacionEdad;
-        //lista de usuarios
         int precio;
+        //lista de usuarios
+        vector<Usuario*>listaUsuarios;
     public:
         Software(string,string,int,int);
         string getNombre();

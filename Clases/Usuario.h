@@ -1,5 +1,7 @@
 #pragma once
 #include <iostream>
+#include <vector>
+class Software;
 
 using namespace std;
 class Usuario{
@@ -10,6 +12,7 @@ class Usuario{
         string correo;
         string AccederLog;
         //lista de softwares
+        vector<Software*>bibliotecaSoftwares;
 
     public:
         Usuario(string,string,int,string,string);
