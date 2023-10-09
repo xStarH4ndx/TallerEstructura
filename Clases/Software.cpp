@@ -1,4 +1,4 @@
-#include "Clases/Software.h"
+#include "Software.h"
 
 Software::Software(string nombre,string developer,int clasificacionEdad,int precio){
     this->nombre=nombre;

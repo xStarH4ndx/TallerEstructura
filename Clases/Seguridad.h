@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "Clases/Software.h"
+#include "Software.h"
 
 class Seguridad:public Software{
     private:
