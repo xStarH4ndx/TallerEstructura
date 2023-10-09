@@ -11,7 +11,7 @@ using namespace std;
 
 //DECLARACION DE FUNCIONES
 void baseDatos(Sistema);
-
+//main
 int main() {
     Sistema sistema;
     baseDatos(sistema);
