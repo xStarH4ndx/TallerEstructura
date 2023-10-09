@@ -1,16 +1,16 @@
 #include <iostream>
-#include <vector>
+#include "Clases/Sistema.cpp"
 
-#include "Clases/Usuario.h"
-#include "Clases/Software.h"
 using namespace std;
-
-
 int main() {
-    vector<Usuario*>listaUsuarios;
+    Sistema sistema;
+    // Obtenemos la lista de usuarios
+    vector<Usuario*> usuarios = sistema.getListaUsuarios();
 
-    cout<<"iniciando programa"<<endl;
+    // Imprimimos la lista de usuarios
+    for (Usuario* usuario : usuarios) {
+        cout << usuario->getNombre() << endl;
+    }
+
     return 0;
 }
-
-
