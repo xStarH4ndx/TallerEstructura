@@ -47,3 +47,7 @@ string Usuario::getAccederLog(){
 void Usuario::setAccederLog(string getAccederLog){
     this->AccederLog=AccederLog;
 }
+
+void Usuario::agregarSoftware(Software* software) {
+    biblioteca.push_back(software);
+}

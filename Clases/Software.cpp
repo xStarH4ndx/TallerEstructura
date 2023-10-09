@@ -38,3 +38,7 @@ void Software::setClasificacionEdad(int clasificacionEdad){
 void Software::setPrecio(int precio){
     this->precio=precio;
 }
+
+void Software::agregarUsuario(Usuario* usuario) {
+    listaUsuarios.push_back(usuario);
+}

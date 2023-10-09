@@ -12,7 +12,7 @@ class Usuario{
         string correo;
         string AccederLog;
         //lista de softwares
-        vector<Software*>bibliotecaSoftwares;
+        vector<Software*>biblioteca;
 
     public:
         Usuario(string,string,int,string,string);
@@ -26,4 +26,5 @@ class Usuario{
         void setEdad(int);
         void setCorreo(string);
         void setAccederLog(string);
+        void agregarSoftware(Software* software);
 };
