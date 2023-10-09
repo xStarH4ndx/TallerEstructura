@@ -3,9 +3,15 @@
 
 using namespace std;
 class Sistema{
+    private:
+        vector<Usuario>listaUsuarios;
+        vector<Software>listaSoftwares;
     public:
-        void poblarUsuarios() {
-            // Agrega un administrador a la lista de usuarios
-            cout<<"se agrego admin"<<endl;
-        }
+        void poblarUsuarios(Usuario);
 };
+
+
+
+void Sistema::poblarUsuarios(Usuario usuario){
+    listaUsuarios.push_back(usuario);
+}
