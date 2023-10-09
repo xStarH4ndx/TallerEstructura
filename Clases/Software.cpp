@@ -42,3 +42,5 @@ void Software::setPrecio(int precio){
 void Software::agregarUsuario(Usuario* usuario) {
     listaUsuarios.push_back(usuario);
 }
+
+Software::~Software(){}

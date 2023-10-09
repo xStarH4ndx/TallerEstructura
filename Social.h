@@ -6,7 +6,7 @@
 
 class Social:public Software{
     private:
-        vector<Usuario>Amigos;
+        vector<Usuario*>Amigos;
     public:
         const vector<Usuario>& getAmigos();
         void agregarAmigo(const Usuario& usuario);

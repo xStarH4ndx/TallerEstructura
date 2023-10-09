@@ -1,7 +1,7 @@
 #pragma once
 #include <iostream>
 #include <vector>
-#include "Software.h"
+#include "Clases/Software.h"
 
 class Navegador : public Software {
 private:

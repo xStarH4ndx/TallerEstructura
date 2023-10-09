@@ -1,11 +1,9 @@
 #include "Usuario.h"
 
-Usuario::Usuario(string nombre,string password,int edad,string correo,string AccederLog){
+Usuario::Usuario(string nombre,string password,int edad){
     this->nombre=nombre;
     this->password=password;
     this->edad=edad;
-    this->correo=correo;
-    this->AccederLog=AccederLog;
 }
 
 string Usuario::getNombre(){
@@ -32,22 +30,8 @@ void Usuario::setEdad(int edad){
     this->edad=edad;
 }
 
-string Usuario::getCorreo(){
-    return this->correo;
-}
-
-void Usuario::setCorreo(string correo){
-    this->correo=correo;
-}
-
-string Usuario::getAccederLog(){
-    return this->AccederLog;
-}
-
-void Usuario::setAccederLog(string getAccederLog){
-    this->AccederLog=AccederLog;
-}
-
 void Usuario::agregarSoftware(Software* software) {
     biblioteca.push_back(software);
 }
+
+Usuario::~Usuario(){}

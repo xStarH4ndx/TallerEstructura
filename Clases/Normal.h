@@ -1,6 +1,6 @@
 #pragma once
 #include <iostream>
-#include "Usuario.h"
+#include "Clases/Usuario.h"
 using namespace std;
 
 class Normal:public Usuario{
