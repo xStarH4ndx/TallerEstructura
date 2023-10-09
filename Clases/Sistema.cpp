@@ -10,7 +10,7 @@ using namespace std;
 class Sistema{
     private:
         vector<Usuario> listaUsuarios;
-        vector<Software> listaJuegos;
+        vector<Juegos> listaJuegos;
     public:
         //PARA LOS USUARIOS
         void poblarUsuarios(){
@@ -48,6 +48,12 @@ class Sistema{
 
             for(int i=1;i<=5;i++){
                 listaJuegos.push_back(Juegos("Juegos18-"+to_string(i),"Developer-"+to_string(i),18,80,"Adultos"));
+            }
+        }
+
+        void imprimirJuegos(){
+            for(int i=0;i<listaJuegos.size();i++){
+                cout<<listaJuegos[i].getNombre()<<listaJuegos[i].getGenero()<<endl;
             }
         }
 };

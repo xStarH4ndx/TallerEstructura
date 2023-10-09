@@ -9,5 +9,6 @@ int main() {
     sistema.poblarJuegos();
     // Obtenemos la lista de usuarios
     sistema.imprimirUsuarios();
+    sistema.imprimirJuegos();
     return 0;
 }
