@@ -6,7 +6,7 @@
 
 using namespace std;
 int main() {
-    vector<Usuario>listaUsuarios;
+    //vector<Usuario>listaUsuarios;
 
     cout<<"iniciando programa"<<endl;
     return 0;
