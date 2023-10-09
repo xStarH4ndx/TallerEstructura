@@ -1,6 +1,3 @@
-#ifndef SOFTWARE_H
-#define SOFTWARE_H
-
 #pragma once
 #include <iostream>
 #include <vector>
@@ -73,5 +70,3 @@ void Software::setPrecio(int precio){
 void Software::agregarUsuario(const Usuario& usuario) {
     listaUsuarios.push_back(usuario);
 }
-
-#endif

@@ -4,8 +4,7 @@
 using namespace std;
 int main() {
     Sistema sistema;
-    vector<Usuario> listaUsuarios;
-    sistema.poblarUsuarios(listaUsuarios);
+    sistema.poblarUsuarios();
     
 
     //probando weas
