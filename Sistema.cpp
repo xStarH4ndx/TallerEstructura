@@ -1,17 +1,14 @@
 #include <iostream>
-#include "Administrador.h"
+//#include "Software.h"
+#include "Usuario.h"
 
 using namespace std;
 class Sistema{
     private:
-        vector<Usuario>listaUsuarios;
-        vector<Software>listaSoftwares;
+        //vector<Usuario>listaUsuarios;
+        //vector<Software>listaSoftwares;
     public:
-        void poblarUsuarios(Usuario);
+        void poblarUsuarios(){
+            cout<<"hola"<<endl;
+        }
 };
-
-
-
-void Sistema::poblarUsuarios(Usuario usuario){
-    listaUsuarios.push_back(usuario);
-}
