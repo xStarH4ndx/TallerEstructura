@@ -16,10 +16,10 @@ class Sistema{
         }
 
         vector<Usuario*> getListaUsuarios(){
-            return listaUsuarios;
+            return this->listaUsuarios;
         }
 
         vector<Software*> getListaSoftwares(){
-            return listaSoftwares;
+            return this->listaSoftwares;
         }
 };
