@@ -7,19 +7,19 @@ using namespace std;
 
 class Sistema{
     private:
-        vector<Usuario*> listaUsuarios;
-        vector<Software*> listaSoftwares;
+        vector<Usuario> listaUsuarios;
+        vector<Software> listaSoftwares;
     public:
         void poblarUsuarios(){
             Usuario kid("Max","123",14);
-            listaUsuarios.push_back(&kid);
+            listaUsuarios.push_back(kid);
         }
 
-        vector<Usuario*> getListaUsuarios(){
+        vector<Usuario> getListaUsuarios(){
             return this->listaUsuarios;
         }
 
-        vector<Software*> getListaSoftwares(){
+        vector<Software> getListaSoftwares(){
             return this->listaSoftwares;
         }
 };
