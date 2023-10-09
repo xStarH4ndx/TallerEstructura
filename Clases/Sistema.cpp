@@ -92,7 +92,6 @@ class Sistema{
             }
         }
 
-        /*
         //GETERS
         //Metodo para obtener la lista de usuarios
         const vector<Usuario>& obtenerListaUsuarios() const {
@@ -114,5 +113,4 @@ class Sistema{
         const vector<Navegador>& obtenerListaNavegador() const {
             return listaNavegador;
         }
-        */
 };
