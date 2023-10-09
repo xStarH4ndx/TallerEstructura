@@ -36,30 +36,26 @@ class Sistema{
             }
         }
 
-        //PARA LOS GENEROS
+        //PARA LOS JUEGOS
         void poblarJuegos(){
             vector<string>generos={
                 "Accion", "Aventura", "Estrategia", "RPG", "Deportes",
                 "Simulacion", "Puzzle", "Horror", "Musical", "FPS"
             };
-
             for(const auto& genero:generos){
                 listaJuegos.push_back(Juegos("Juego1-"+genero,"Developer1",12,40,genero));
                 listaJuegos.push_back(Juegos("Juego2-"+genero,"Developer2",16,60,genero));
             }
-
             for(int i=1;i<=5;i++){
                 listaJuegos.push_back(Juegos("Juegos18-"+to_string(i),"Developer-"+to_string(i),18,80,"Adultos"));
             }
         }
-
         void imprimirJuegos(){
             for(int i=0;i<listaJuegos.size();i++){
                 cout<<listaJuegos[i].getNombre()<<listaJuegos[i].getGenero()<<endl;
             }
         }
-
-        //Ofimatica
+        //PARA OFIMATICA
         void poblarOfimatica(){
             listaOfimatica.push_back(Ofimatica("Word", "Microsoft", 0, 99, 0));
             listaOfimatica.push_back(Ofimatica("Excel", "Microsoft", 0, 79, 0));
