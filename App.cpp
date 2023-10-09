@@ -11,5 +11,6 @@ int main() {
     // Obtenemos la lista de usuarios
     sistema.imprimirUsuarios();
     sistema.imprimirJuegos();
+    sistema.imprimirOfimatica();
     return 0;
 }
