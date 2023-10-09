@@ -1,6 +1,7 @@
 #pragma once
 #include <iostream>
 #include "Usuario.h"
+
 using namespace std;
 class Administrador:public Usuario{
     private:
