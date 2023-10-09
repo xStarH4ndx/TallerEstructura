@@ -15,6 +15,12 @@ void baseDatos(Sistema);
 int main() {
     Sistema sistema;
     baseDatos(sistema);
+    // Obtener las listas
+    const auto& listaUsuarios = sistema.obtenerListaUsuarios();
+    const auto& listaJuegos = sistema.obtenerListaJuegos();
+    const auto& listaOfimatica = sistema.obtenerListaOfimatica();
+    const auto& listaProduccion = sistema.obtenerListaProduccion();
+
 
     //IMPRESIONES DE LA BASE DE DATOS
     sistema.imprimirUsuarios();
@@ -22,8 +28,10 @@ int main() {
     sistema.imprimirOfimatica();
     return 0;
 }
+
 void baseDatos(Sistema sistema){
     sistema.poblarUsuarios();
     sistema.poblarJuegos();
     sistema.poblarOfimatica();
+    sistema.poblarProduccion();
 }

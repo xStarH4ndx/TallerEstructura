@@ -73,6 +73,27 @@ class Sistema{
 
         //PARA PRODUCCION
         void poblarProduccion(){
-            
+            listaProduccion.push_back(Produccion("VideoMaker", "Developer1", 0, 150, "video"));
+            listaProduccion.push_back(Produccion("MusicStudio", "Developer2", 0, 120, "música"));
+            listaProduccion.push_back(Produccion("StreamingApp", "Developer3", 0, 100, "streaming"));
+            listaProduccion.push_back(Produccion("PhotoEditor", "Developer4", 0, 80, "fotos"));
+        }
+
+        //GETERS
+        // Método para obtener la lista de usuarios
+        const vector<Usuario>& obtenerListaUsuarios() const {
+            return listaUsuarios;
+        }
+        // Método para obtener la lista de juegos
+        const vector<Juegos>& obtenerListaJuegos() const {
+            return listaJuegos;
+        }
+        // Método para obtener la lista de software de ofimática
+        const vector<Ofimatica>& obtenerListaOfimatica() const {
+            return listaOfimatica;
+        }
+        // Método para obtener la lista de software de producción
+        const vector<Produccion>& obtenerListaProduccion() const {
+            return listaProduccion;
         }
 };
