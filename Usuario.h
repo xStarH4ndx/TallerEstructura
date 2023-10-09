@@ -13,14 +13,14 @@ class Usuario{
         vector<Software> biblioteca; // Lista de software en la biblioteca del usuario
 
     public:
-        Usuario(string nombre,string pasword,int edad);
-        ~Usuario();
         string getNombre();
         void setNombre(string);
         string getPasword();
         void setPasword(string);
         int getEdad();
         void setEdad(int);
+        Usuario(string nombre,string pasword,int edad);
+        ~Usuario();
         //const vector<Software>& getBiblioteca();
         //void agregarSoftware(const Software& software);
         //void eliminarSoftware(const Software& software);

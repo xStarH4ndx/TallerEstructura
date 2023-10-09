@@ -5,8 +5,7 @@ Usuario::Usuario(string nombre,string pasword,int edad) {
     this->pasword=pasword;
     this->edad=edad;
 }
-
-Usuario::~Usuario() { cout << "Se destruyó objeto usuario" << endl; }
+Usuario::~Usuario() {}
 
 string Usuario::getNombre() {
     return this->nombre;
