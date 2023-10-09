@@ -22,6 +22,6 @@ class Usuario{
         int getEdad();
         void setEdad(int);
         const vector<Software>& getBiblioteca();
-        void agregarSoftware(const Software& software);
-        void eliminarSoftware(const Software& software);
+        //void agregarSoftware(const Software& software);
+        //void eliminarSoftware(const Software& software);
 };

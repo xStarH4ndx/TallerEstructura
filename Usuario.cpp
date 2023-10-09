@@ -36,6 +36,7 @@ const vector<Software>& Usuario::getBiblioteca() {
     return biblioteca;
 }
 
+/*
 void Usuario::agregarSoftware(const Software& software) {
     biblioteca.push_back(software);
 }
@@ -52,3 +53,4 @@ void Usuario::eliminarSoftware(const Software& software) {
         cout << "El software no está en la biblioteca del usuario." << endl;
     }
 }
+*/
