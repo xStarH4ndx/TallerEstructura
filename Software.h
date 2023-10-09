@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include "Usuario.h"
 using namespace std;
 
