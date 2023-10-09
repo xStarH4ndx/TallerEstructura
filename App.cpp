@@ -4,6 +4,7 @@
 using namespace std;
 int main() {
     Sistema sistema;
+    sistema.poblarUsuarios();
     // Obtenemos la lista de usuarios
     vector<Usuario*> usuarios = sistema.getListaUsuarios();
 
