@@ -1,10 +1,10 @@
 #include <iostream>
 #include <vector>
-#include "Header/Usuario.h"
-#include "Header/Administrador.h"
-#include "Header/Normal.h"
-#include "Header/Software.h"
-#include "Header/Juegos.h"
+#include "Head/Usuario.h"
+#include "Head/Administrador.h"
+#include "Head/Normal.h"
+#include "Head/Software.h"
+#include "Head/Juegos.h"
 
 using namespace std;
 class Sistema{
