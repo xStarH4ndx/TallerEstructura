@@ -1,5 +1,5 @@
-#include "Clases/Usuario.h"
-#include "Clases/Software.h"
+#include "Usuario.h"
+#include "Software.h"
 
 Usuario::Usuario(string nombre,string password,int edad){
     this->nombre=nombre;

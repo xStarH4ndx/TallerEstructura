@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-#include "CPP/Sistema.cpp"
+#include "Clases/Sistema.cpp"
 
 using namespace std;
 int main() {
