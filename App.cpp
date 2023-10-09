@@ -1,7 +1,5 @@
-#pragma once
 #include <iostream>
 #include <vector>
-#include "Usuario.h"
 
 
 using namespace std;
