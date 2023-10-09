@@ -1,4 +1,4 @@
-#include "Head/Normal.h"
+#include "Clases/Normal.h"
 
 Normal::Normal(string nombre,string pasword,int edad,string correo)
     :Usuario(nombre,pasword,edad),correo(correo){

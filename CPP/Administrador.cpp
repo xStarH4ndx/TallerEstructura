@@ -1,4 +1,4 @@
-#include "Head/Administrador.h"
+#include "Clases/Administrador.h"
 
 Administrador::Administrador(string nombre,string pasword,int edad,string correo,string AccederLog)
     :Usuario(nombre,pasword,edad),correo(correo),AccederLog(AccederLog){

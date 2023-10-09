@@ -1,4 +1,4 @@
-#include "Head/Juegos.h"
+#include "Clases/Juegos.h"
 // Constructor de Juegos
 Juegos::Juegos(string nombre, string developer, int clasificacionEdad, int precio, string genero)
     :Software(nombre, developer, clasificacionEdad, precio), genero(genero) {

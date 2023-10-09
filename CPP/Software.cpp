@@ -1,5 +1,5 @@
-#include "Head/Software.h"
-#include "Head/Usuario.h"
+#include "Clases/Software.h"
+#include "Clases/Usuario.h"
 
 Software::Software(string nombre,string developer,int clasificacionEdad,int precio){
     this->nombre=nombre;
