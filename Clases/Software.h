@@ -11,7 +11,7 @@ class Software{
         int clasificacionEdad;
         int precio;
         //lista de usuarios
-        vector<Usuario*>listaUsuarios;
+        vector<Usuario*>listaDeveloper;
     public:
         Software(string,string,int,int);
         string getNombre();
