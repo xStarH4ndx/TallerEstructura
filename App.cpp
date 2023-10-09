@@ -10,7 +10,7 @@ using namespace std;
 */
 
 //DECLARACION DE FUNCIONES
-void baseDatos(Sistema);
+void baseDatos(Sistema&);
 //main
 int main() {
     Sistema sistema;
@@ -30,7 +30,7 @@ int main() {
     return 0;
 }
 
-void baseDatos(Sistema sistema){
+void baseDatos(Sistema& sistema){
     sistema.poblarUsuarios();
     sistema.poblarJuegos();
     sistema.poblarOfimatica();
