@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include "Software.h"
 #include "Usuario.h"
 
 
