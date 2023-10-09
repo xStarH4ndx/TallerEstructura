@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-class Software;
+#include "Software.h"
 using namespace std;
 
 class Usuario{

@@ -1,6 +1,6 @@
 #include <iostream>
 #include <vector>
-class Usuario;
+#include "Usuario.h"
 
 using namespace std;
 class Sistema{
