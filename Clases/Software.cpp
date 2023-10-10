@@ -44,4 +44,15 @@ void Software::agregarUsuario(Usuario usuario) {
     listaDeveloper.push_back(usuario);
 }
 
+void Software::eliminarUsuario(string nombreUsuario){
+    for(int i=0;i<listaDeveloper.size();i++){
+        if(listaDeveloper[i].getNombre()==nombreUsuario){
+            listaDeveloper.erase(listaDeveloper.begin()+i);
+            cout<<"Se ha eliminado el developer: "<<nombreUsuario<<endl;
+            return;
+        }
+        cout<<"No se ha encontrado el usuario: "<<nombreUsuario<<endl;
+    }
+}
+
 Software::~Software(){}

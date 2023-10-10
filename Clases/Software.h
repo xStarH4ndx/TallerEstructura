@@ -23,5 +23,6 @@ class Software{
         void setClasificacionEdad(int);
         void setPrecio(int);
         void agregarUsuario(Usuario usuario);
+        void eliminarUsuario(string);
         ~Software();
 };
