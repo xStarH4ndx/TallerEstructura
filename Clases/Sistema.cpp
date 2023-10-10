@@ -77,10 +77,10 @@ class Sistema{
         }
         //PARA PRODUCCION
         void poblarProduccion(){
-            listaProduccion.push_back(Produccion("VideoMaker", "Developer1", 0, 150, "video"));
-            listaProduccion.push_back(Produccion("MusicStudio", "Developer2", 0, 120, "música"));
-            listaProduccion.push_back(Produccion("StreamingApp", "Developer3", 0, 100, "streaming"));
-            listaProduccion.push_back(Produccion("PhotoEditor", "Developer4", 0, 80, "fotos"));
+            listaProduccion.push_back(Produccion("VideoMaker", "Developer1", 18, 150, "video"));
+            listaProduccion.push_back(Produccion("MusicStudio", "Developer2", 18, 120, "música"));
+            listaProduccion.push_back(Produccion("StreamingApp", "Developer3", 18, 100, "streaming"));
+            listaProduccion.push_back(Produccion("PhotoEditor", "Developer4", 18, 80, "fotos"));
         }
         //PARA NAVEGADOR
         void poblarNavegador(){
