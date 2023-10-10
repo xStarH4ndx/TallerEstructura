@@ -11,7 +11,7 @@ class Social:public Software{
     public:
         Social(string,string,int,int);
         void agregarAmigo(Usuario);
-        void eliminarAmigo(Usuario);
+        void eliminarAmigo(string);
         ~Social();
     
 };
