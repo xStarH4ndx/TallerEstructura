@@ -102,6 +102,11 @@ class Sistema{
                 listaSeguridad.push_back(Seguridad("Software-"+to_string(i), "Desarrollador-"+to_string(i), 18, 50, tipoMalwares[i-1]));
             }
         }
+        void imprimirSeguridad(){
+            for(int i=0;i<listaSeguridad.size();i++){
+                cout<<listaSeguridad[i].getNombre()<<"-->"<<listaSeguridad[i].getTipoMalware()<<endl;
+            }
+        }
 
         //GETERS
         //Metodo para obtener la lista de usuarios

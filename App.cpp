@@ -27,6 +27,7 @@ int main() {
     sistema.imprimirJuegos();
     sistema.imprimirOfimatica();
     sistema.imprimirNavegador();
+    sistema.imprimirSeguridad();
     return 0;
 }
 
