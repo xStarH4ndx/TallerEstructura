@@ -36,4 +36,5 @@ void baseDatos(Sistema& sistema){
     sistema.poblarOfimatica();
     sistema.poblarProduccion();
     sistema.poblarNavegador();
+    sistema.poblarSeguridad();
 }

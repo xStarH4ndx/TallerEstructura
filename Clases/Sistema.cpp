@@ -10,6 +10,7 @@
 #include "Ofimatica.h"
 #include "Produccion.h"
 #include "Navegador.h"
+#include "Seguridad.h"
 
 using namespace std;
 class Sistema{
@@ -19,6 +20,7 @@ class Sistema{
         vector<Ofimatica> listaOfimatica;
         vector<Produccion> listaProduccion;
         vector<Navegador> listaNavegador;
+        vector<Seguridad> listaSeguridad;
     public:
         //PARA LOS USUARIOS
         void poblarUsuarios(){
@@ -41,7 +43,6 @@ class Sistema{
                 cout<<listaUsuarios[i].getNombre()<<endl;
             }
         }
-
         //PARA LOS JUEGOS
         void poblarJuegos(){
             vector<string>generos={
@@ -89,6 +90,16 @@ class Sistema{
         void imprimirNavegador(){
             for(int i=0;i<listaNavegador.size();i++){
                 cout<<listaNavegador[i].getNombre()<<endl;
+            }
+        }
+        //PARA SEGURIDAD
+        void poblarSeguridad(){
+            vector<string>tipoMalwares={
+                "Ransonmware", "Spyware", "botnets", "rootkits", "gusaons", "troyanos"
+            };
+
+            for(int i=1;i<(tipoMalwares.size()+1);i++){
+                listaSeguridad.push_back(Seguridad("Software-"+to_string(i), "Desarrollador-"+to_string(i), 18, 50, tipoMalwares[i-1]));
             }
         }
 
