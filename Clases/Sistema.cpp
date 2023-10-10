@@ -11,6 +11,7 @@
 #include "Produccion.h"
 #include "Navegador.h"
 #include "Seguridad.h"
+#include "Social.h"
 
 using namespace std;
 class Sistema{
@@ -21,6 +22,7 @@ class Sistema{
         vector<Produccion> listaProduccion;
         vector<Navegador> listaNavegador;
         vector<Seguridad> listaSeguridad;
+        vector<Social> listaSocial;
     public:
         //PARA LOS USUARIOS
         void poblarUsuarios(){
@@ -37,7 +39,6 @@ class Sistema{
                 listaUsuarios.push_back(user);
             }
         }
-
         void imprimirUsuarios(){
             for(int i=0;i<listaUsuarios.size();i++){
                 cout<<listaUsuarios[i].getNombre()<<endl;
@@ -107,7 +108,11 @@ class Sistema{
                 cout<<listaSeguridad[i].getNombre()<<"-->"<<listaSeguridad[i].getTipoMalware()<<endl;
             }
         }
-
+        //PARA SOCIAL
+        void poblarSocial(){
+            listaSocial.push_back(Social("FaceCarpet","YouCrosoft",18,20));
+            listaSocial.push_back(Social("MiTube","Gugul",13,0));
+        }
         //GETERS
         //Metodo para obtener la lista de usuarios
         const vector<Usuario>& obtenerListaUsuarios() const {

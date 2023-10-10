@@ -7,20 +7,11 @@
 using namespace std;
 class Social:public Software{
     private:
-        vector<Usuario*> Amigos;
+        vector<Usuario> Amigos;
     public:
         Social(string,string,int,int);
-        void agregarAmigo(Usuario*);
+        void agregarAmigo(Usuario);
+        void eliminarAmigo(Usuario);
         ~Social();
     
 };
-
-Social::Social(string nombre,string developer,int clasificacionEdad,int precio)
-    :Software(nombre,developer,clasificacionEdad,precio){
-}
-
-void Social::agregarAmigo(Usuario* amigo) {
-    Amigos.push_back(amigo);
-}
-
-Social::~Social(){}
