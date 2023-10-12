@@ -40,8 +40,17 @@ Social("FaceCarpet","YouCrosoft",18,20) = Se crea un objeto tipo Social con el n
 Social("MiTube","Gugul",13,0) = Se crea otro objeto tipo Social con el nombre "MiTube", desarrollado por "Gugul", una edad mínima de 13 y sin límite de amigos. Se añade a la lista de Social.
 
 ------------------Clases Creadas-------------------------:
+-App: Es la clase que tiene el main.
+-Sistema: Es la clase que actúa como una interfaz, esta pobla la base de datos y otras labores. Se utiliza para limpiar la App, para que no esté desordenada. 
+
 -Usuario: Representa al usuario que se va a registrar, es la clase "Padre" (este posee atributos de una persona: nombre,contraseña y edad).
 -Administrador: Representa al usuario administrador, clase hija de Usuario, este posee atributos completos del usuario, es decir, posee (además de los predeterminados del usuario) correo y un AccederLog.
 -Normal: Representa un usuario normal, clase hija de Usuario, el cual posee los atributos del usuario, añadiendole correo.
 
 -Software: Representa un software en general, posee atributos de "nombre, developer, clasificación de edad y precio". Además posee una lista de usuarios que utilizan algún software.
+-Juegos: Representa un software de Juegos. Tiene atributos como nombre, desarrollador, edad mínima, duración y género. Se añade a la lista de Juegos.
+-Ofimatica: Representa un software de ofimática. Tiene atributos como nombre, desarrollador, restricciones de edad, precio y calificación. Se añade a la lista de Ofimatica.
+-Produccion: Representa un software de producción multimedia. Tiene atributos como nombre, desarrollador, edad mínima, precio y tipo de producción. Se añade a la lista de Produccion.
+-Navegador: Representa un software de navegador. Tiene atributos como nombre, desarrollador y restricciones de edad. Se añade a la lista de Navegador.
+-Seguridad: Representa un software de seguridad. Tiene atributos como nombre, desarrollador, edad mínima, precio y tipo de malware. Se añade a la lista de Seguridad.
+-Social: Representa una aplicación de redes sociales. Tiene atributos como nombre, desarrollador, edad mínima y límite de amigos. Se añade a la lista de Social.
