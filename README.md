@@ -2,7 +2,7 @@
 
 -----------------LINEAS DE COMPILACIÓN Y EJECUCIÓN------------------------
 Linea para compilar:
-g++ -o mi_programa App.cpp Clases/Sistema.cpp Clases/Usuario.cpp Clases/Software.cpp Clases/Administrador.cpp Clases/Normal.cpp Clases/Juegos.cpp Clases/Ofimatica.cpp Clases/Produccion.cpp Clases/Navegador.cpp Clases/Seguridad.cpp
+g++ -o mi_programa App.cpp Clases/Sistema.cpp Clases/Usuario.cpp Clases/Software.cpp Clases/Administrador.cpp Clases/Normal.cpp Clases/Juegos.cpp Clases/Ofimatica.cpp Clases/Produccion.cpp Clases/Navegador.cpp Clases/Seguridad.cpp Clases/Social.cpp
 
 Linea para Ejecutar:
 ./mi_programa
